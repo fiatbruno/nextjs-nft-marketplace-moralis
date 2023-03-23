@@ -1,6 +1,6 @@
-import Header from "@/components/Header"
+import Header from "../components/Header"
 import Head from "next/head" 
-import "@/styles/globals.css"
+import "../styles/globals.css"
 import { MoralisProvider } from "react-moralis"
 
 export default function App({ Component, pageProps }) {
